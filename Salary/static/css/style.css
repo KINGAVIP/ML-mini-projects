@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: black; */
+    /* color: white; */
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    color: red;
+    flex-direction: column;
+    background: black;
+}
+button{
+    color: black;
+    cursor:pointer;
+}
+h3{
+    font-size: 4rem;
+    color:rgba(250, 200, 294, .7);
+    font-family: cursive;
+}
+form{
+    background:rgba(100, 200, 223,0.5);
+    color: white;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    
+}
+div{
+    margin: .21rem ;
+    display: flex;
+    gap: 2rem;
+}
+
+input{
+    width: 100%;
+}
